@@ -1,6 +1,6 @@
 # BambooHR for Laravel 5
 
-> __NOTE__: This package currently requires PHP >= 8.0.0
+> __NOTE__: This package currently requires PHP >= 7.0.0
 >
 > If you have a need for PHP 5.x support let me know by opening an issue
 > (or feel free to submit a pull request).
@@ -8,7 +8,7 @@
 ## Installation
 
 ```bash
-$ composer require willis1776/bamboohr-laravel
+$ composer require jeffreyhyer/bamboohr-laravel
 ```
 
 #### Laravel 5.5+
@@ -24,12 +24,12 @@ For Laravel <= 5.4 you'll need to add the Service Provider and Facade to the
 
 'providers' => [
     // ...
-    Willis1776\BambooHR\ServiceProvider::class,
+    JeffreyHyer\BambooHR\ServiceProvider::class,
 ],
 
 'aliases' => [
     // ...
-    'BambooHR' => Willis1776\BambooHR\Facade::class,
+    'BambooHR' => JeffreyHyer\BambooHR\Facade::class,
 ],
 ```
 

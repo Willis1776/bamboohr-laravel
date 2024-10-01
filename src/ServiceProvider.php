@@ -1,6 +1,6 @@
 <?php
 
-namespace Willis1776\BambooHR;
+namespace JeffreyHyer\BambooHR;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
