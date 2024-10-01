@@ -1,39 +1,43 @@
 {
-    "name": "jeffreyhyer/bamboohr-laravel",
-    "type": "library",
-    "description": "Laravel 5.x Service Provider and Facade for the jeffreyhyer/bamboohr package",
-    "keywords": ["laravel", "bamboohr", "api"],
-    "version": "1.0.8",
-    "require": {
-        "php": ">=7.0.0",
-        "illuminate/support": "5.*|^6.0|^7.0|^8.0",
-        "jeffreyhyer/bamboohr": "~1.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Jeffrey Hyer",
-            "email": "jmhyer135@gmail.com"
-        }
-    ],
-    "homepage": "https://github.com/jeffreyhyer/bamboohr-laravel",
-    "support": {
-        "issues": "https://github.com/jeffreyhyer/bamboohr-laravel/issues",
-        "source": "https://github.com/jeffreyhyer/bamboohr-laravel"
-    },
-    "autoload": {
-        "psr-4": {
-            "JeffreyHyer\\BambooHR\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "JeffreyHyer\\BambooHR\\ServiceProvider"
-            ],
-            "aliases": {
-                "BambooHR": "JeffreyHyer\\BambooHR\\Facade"
-            }
-        }
+  "name": "willis1776/bamboohr-laravel",
+  "type": "library",
+  "description": "Laravel 5.x Service Provider and Facade for the jeffreyhyer/bamboohr package",
+  "keywords": [
+    "laravel",
+    "bamboohr",
+    "api"
+  ],
+  "version": "1.1.0",
+  "require": {
+    "php": ">=8.0.0",
+    "illuminate/support": "5.*|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+    "jeffreyhyer/bamboohr": "~1.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Willis",
+      "email": "willis@claritycode.io"
     }
+  ],
+  "homepage": "https://github.com/willis1776/bamboohr-laravel",
+  "support": {
+    "issues": "https://github.com/willis1776/bamboohr-laravel/issues",
+    "source": "https://github.com/willis1776/bamboohr-laravel"
+  },
+  "autoload": {
+    "psr-4": {
+      "Willis1776\\BambooHR\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Willis1776\\BambooHR\\ServiceProvider"
+      ],
+      "aliases": {
+        "BambooHR": "Willis1776\\BambooHR\\Facade"
+      }
+    }
+  }
 }

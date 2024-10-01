@@ -1,6 +1,6 @@
 <?php
 
-namespace JeffreyHyer\BambooHR;
+namespace Willis1776\BambooHR;
 
 class Facade extends \Illuminate\Support\Facades\Facade
 {
